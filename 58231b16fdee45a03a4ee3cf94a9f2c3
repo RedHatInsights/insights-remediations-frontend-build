@@ -1,0 +1,46 @@
+node {
+  stage ("deploy") {
+    checkout scm
+    withCredentials(bindings: [sshUserPrivateKey(credentialsId: "insightsbot",
+                      keyFileVariable: "insightsbot",
+                      passphraseVariable: "",
+                      usernameVariable: "")]) {
+
+      String APP_NAME = "remediations"
+      String BRANCH = env.BRANCH_NAME.replaceAll("origin/", "")
+
+      if (BRANCH == "prod-stable") {
+        PREFIX = "insights"
+      } else if (BRANCH == "prod-beta") {
+        PREFIX = "insightsbeta"
+      } else {
+        error "Bug: invalid branch name, we only support prod-beta/prod-stable and we got ${BRANCH}"
+      }
+
+      // Write build info into app.info.json
+      // We have the src info there already
+      def app_info = readJSON file: "./app.info.json"
+      app_info.build_branch = BRANCH
+      app_info.build_hash = sh(returnStdout: true, script: 'git rev-parse HEAD').trim()
+      app_info.build_id = env.BUILD_ID
+      writeJSON file: "./app.info.json", json: app_info
+      
+      // Send Slack Notification
+      String SLACK_TEXT = "${APP_NAME}/${BRANCH} [STATUS] - Deploy build ${app_info.build_id} started for GIT COMMIT ${app_info.build_hash}."
+      slackSend message: SLACK_TEXT, color: 'black', channel: '#insights-bots'
+
+      AKAMAI_PATH = "/114034/${PREFIX}/platform/${APP_NAME}"
+      if (APP_NAME == "chrome") { AKAMAI_PATH = "/114034/${PREFIX}/static/chrome/" }
+
+      configFileProvider([configFile(fileId: "a3e36eb0-9a5e-448f-b472-dc178d8fa133", variable: "AKAMAI_HOST_KEY")]) {
+        sh """
+           eval `ssh-agent`
+           ssh-add \"$insightsbot\"
+           cp $AKAMAI_HOST_KEY ~/.ssh/known_hosts
+           chmod 600 ~/.ssh/known_hosts
+           rsync -arv -e \"ssh -2\" * sshacs@unprotected.upload.akamai.com:${AKAMAI_PATH}
+         """
+      }
+    }
+  }
+}
