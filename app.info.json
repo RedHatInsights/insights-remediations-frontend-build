@@ -1,6 +1,6 @@
 {
   "app_name": "remediations",
-  "src_hash": "04c135e1e1d68b4acfe256714f9ce118ac6af472",
+  "src_hash": "5f2a66433569767dbb7cfefd8eac17123a621d82",
   "src_tag": "",
   "src_branch": "stable",
   "npm_info": {
@@ -50,25 +50,25 @@
       "from": "@babel/preset-react@7.0.0",
       "resolved": "https://registry.npmjs.org/@babel/preset-react/-/preset-react-7.0.0.tgz"
     },
-    "@patternfly/patternfly-next": {
-      "version": "1.0.175",
-      "from": "@patternfly/patternfly-next@1.0.175",
-      "resolved": "https://registry.npmjs.org/@patternfly/patternfly-next/-/patternfly-next-1.0.175.tgz"
+    "@patternfly/patternfly": {
+      "version": "1.0.223",
+      "from": "@patternfly/patternfly@1.0.223",
+      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-1.0.223.tgz"
     },
     "@patternfly/react-core": {
-      "version": "1.51.6",
-      "from": "@patternfly/react-core@1.51.6",
-      "resolved": "https://registry.npmjs.org/@patternfly/react-core/-/react-core-1.51.6.tgz"
+      "version": "2.3.6",
+      "from": "@patternfly/react-core@2.3.6",
+      "resolved": "https://registry.npmjs.org/@patternfly/react-core/-/react-core-2.3.6.tgz"
     },
     "@patternfly/react-icons": {
-      "version": "2.10.3",
-      "from": "@patternfly/react-icons@2.10.3",
-      "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-2.10.3.tgz"
+      "version": "3.1.1",
+      "from": "@patternfly/react-icons@3.1.1",
+      "resolved": "https://registry.npmjs.org/@patternfly/react-icons/-/react-icons-3.1.1.tgz"
     },
     "@patternfly/react-table": {
-      "version": "0.4.13",
-      "from": "@patternfly/react-table@0.4.13",
-      "resolved": "https://registry.npmjs.org/@patternfly/react-table/-/react-table-0.4.13.tgz"
+      "version": "1.0.36",
+      "from": "@patternfly/react-table@1.0.36",
+      "resolved": "https://registry.npmjs.org/@patternfly/react-table/-/react-table-1.0.36.tgz"
     },
     "@patternfly/react-tokens": {
       "version": "1.10.1",
@@ -76,9 +76,9 @@
       "resolved": "https://registry.npmjs.org/@patternfly/react-tokens/-/react-tokens-1.10.1.tgz"
     },
     "@red-hat-insights/insights-frontend-components": {
-      "version": "3.33.63",
-      "from": "@red-hat-insights/insights-frontend-components@3.33.63",
-      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.33.63.tgz"
+      "version": "3.39.3",
+      "from": "@red-hat-insights/insights-frontend-components@3.39.3",
+      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.39.3.tgz"
     },
     "babel-core": {
       "required": {
@@ -166,6 +166,11 @@
       "from": "babel-plugin-transform-object-rest-spread@6.26.0",
       "resolved": "https://registry.npmjs.org/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-6.26.0.tgz"
     },
+    "babel-polyfill": {
+      "version": "6.26.0",
+      "from": "babel-polyfill@6.26.0",
+      "resolved": "https://registry.npmjs.org/babel-polyfill/-/babel-polyfill-6.26.0.tgz"
+    },
     "classnames": {
       "version": "2.2.6",
       "from": "classnames@2.2.6",
@@ -235,6 +240,11 @@
       "version": "2.1.1",
       "from": "eslint-loader@2.1.1",
       "resolved": "https://registry.npmjs.org/eslint-loader/-/eslint-loader-2.1.1.tgz"
+    },
+    "eslint-plugin-jest": {
+      "version": "22.3.0",
+      "from": "eslint-plugin-jest@22.3.0",
+      "resolved": "https://registry.npmjs.org/eslint-plugin-jest/-/eslint-plugin-jest-22.3.0.tgz"
     },
     "eslint-plugin-react": {
       "version": "7.11.1",
@@ -312,14 +322,19 @@
       "resolved": "https://registry.npmjs.org/npm-run-all/-/npm-run-all-4.1.5.tgz"
     },
     "react": {
-      "version": "16.6.3",
-      "from": "react@16.6.3",
-      "resolved": "https://registry.npmjs.org/react/-/react-16.6.3.tgz"
+      "version": "16.8.3",
+      "from": "react@16.8.3",
+      "resolved": "https://registry.npmjs.org/react/-/react-16.8.3.tgz"
     },
     "react-dom": {
-      "version": "16.6.3",
-      "from": "react-dom@16.6.3",
-      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-16.6.3.tgz"
+      "version": "16.8.3",
+      "from": "react-dom@16.8.3",
+      "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-16.8.3.tgz"
+    },
+    "react-hooks-testing-library": {
+      "version": "0.3.6",
+      "from": "react-hooks-testing-library@0.3.6",
+      "resolved": "https://registry.npmjs.org/react-hooks-testing-library/-/react-hooks-testing-library-0.3.6.tgz"
     },
     "react-redux": {
       "version": "5.1.1",
@@ -420,7 +435,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "379",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/493094409"
+    "build_number": "478",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/505914336"
   }
 }
