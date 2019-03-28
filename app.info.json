@@ -1,6 +1,6 @@
 {
   "app_name": "remediations",
-  "src_hash": "8dd91352c1c3b519e2ee2a91d73d4821f2f038f7",
+  "src_hash": "09dcb3ee1fca62dfcac6cf71437a91867d2aa730",
   "src_tag": "",
   "src_branch": "master",
   "npm_info": {
@@ -76,9 +76,9 @@
       "resolved": "https://registry.npmjs.org/@patternfly/react-tokens/-/react-tokens-1.10.1.tgz"
     },
     "@red-hat-insights/insights-frontend-components": {
-      "version": "3.39.3",
-      "from": "@red-hat-insights/insights-frontend-components@3.39.3",
-      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.39.3.tgz"
+      "version": "3.41.0",
+      "from": "@red-hat-insights/insights-frontend-components@3.41.0",
+      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.41.0.tgz"
     },
     "@redhat-cloud-services/remediations-client": {
       "version": "0.1.2",
@@ -445,7 +445,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "513",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/509454412"
+    "build_number": "525",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/512488743"
   }
 }
