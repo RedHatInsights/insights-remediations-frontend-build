@@ -435,7 +435,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "478",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/505914336"
+    "build_number": "529",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/513047929"
   }
 }
