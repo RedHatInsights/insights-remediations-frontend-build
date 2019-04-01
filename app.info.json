@@ -1,6 +1,6 @@
 {
   "app_name": "remediations",
-  "src_hash": "5f2a66433569767dbb7cfefd8eac17123a621d82",
+  "src_hash": "b725c4db45e3d81a76035878578b85bbaef13702",
   "src_tag": "",
   "src_branch": "master",
   "npm_info": {
@@ -76,9 +76,19 @@
       "resolved": "https://registry.npmjs.org/@patternfly/react-tokens/-/react-tokens-1.10.1.tgz"
     },
     "@red-hat-insights/insights-frontend-components": {
-      "version": "3.39.3",
-      "from": "@red-hat-insights/insights-frontend-components@3.39.3",
-      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.39.3.tgz"
+      "version": "3.41.0",
+      "from": "@red-hat-insights/insights-frontend-components@3.41.0",
+      "resolved": "https://registry.npmjs.org/@red-hat-insights/insights-frontend-components/-/insights-frontend-components-3.41.0.tgz"
+    },
+    "@redhat-cloud-services/remediations-client": {
+      "version": "0.1.2",
+      "from": "@redhat-cloud-services/remediations-client@0.1.2",
+      "resolved": "https://registry.npmjs.org/@redhat-cloud-services/remediations-client/-/remediations-client-0.1.2.tgz"
+    },
+    "axios": {
+      "version": "0.18.0",
+      "from": "axios@0.18.0",
+      "resolved": "https://registry.npmjs.org/axios/-/axios-0.18.0.tgz"
     },
     "babel-core": {
       "required": {
@@ -435,7 +445,7 @@
 },
   "travis": {
     "event_type": "push",
-    "build_number": "477",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/505906017"
+    "build_number": "533",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/514009435"
   }
 }
