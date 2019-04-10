@@ -5,7 +5,7 @@
   "src_branch": "stable",
   "travis": {
     "event_type": "push",
-    "build_number": "559",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/517920648"
+    "build_number": "558",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/517765456"
   }
 }
