@@ -1,11 +1,11 @@
 {
   "app_name": "remediations",
-  "src_hash": "84681c6bec6d888ba2dbca74871be340e06ac285",
+  "src_hash": "2da8131669635f7ce00c939533e44b7f4ed756c8",
   "src_tag": "",
   "src_branch": "master",
   "travis": {
     "event_type": "push",
-    "build_number": "649",
-    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/536174375"
+    "build_number": "658",
+    "build_web_url": "https://travis-ci.org/RedHatInsights/insights-remediations-frontend/builds/556807930"
   }
 }
