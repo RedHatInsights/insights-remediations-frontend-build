@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "dependencies": {
     "@patternfly/patternfly": {
-      "version": "2.31.6",
+      "version": "2.31.7",
       "from": "@patternfly/patternfly@latest",
-      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-2.31.6.tgz"
+      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-2.31.7.tgz"
     },
     "@patternfly/react-charts": {
       "version": "4.9.10",
