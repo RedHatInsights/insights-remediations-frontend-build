@@ -1,4 +1,4 @@
-@Library("github.com/RedHatInsights/insights-pipeline-lib")
+@Library("github.com/RedHatInsights/insights-pipeline-lib@v3")
 import groovy.json.JsonSlurper
 
 node {
@@ -42,12 +42,18 @@ node {
            ssh-add \"$privateKeyFile\"
            cp $AKAMAI_HOST_KEY ~/.ssh/known_hosts
            chmod 600 ~/.ssh/known_hosts
-           rsync -arv -e \"ssh -2\" * sshacs@cloud-unprotected.upload.akamai.com:${AKAMAI_APP_PATH}
+           n=0
+           until [ \$n -ge 10 ]
+           do
+              rsync -arv -e \"ssh -2\" * sshacs@cloud-unprotected.upload.akamai.com:${AKAMAI_APP_PATH} && break
+              n=\$[\$n+1]
+              sleep 10
+           done
          """
       }
       
       //Clear the cache for the app being deployed
-      openShift.withNode(image: "docker-registry.default.svc:5000/jenkins/jenkins-slave-base-centos7-python36:latest") {
+      openShiftUtils.withNode(image: "docker-registry.default.svc:5000/jenkins/jenkins-slave-base-centos7-python36:latest") {
         //install python dependencies
         sh "curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py"
         sh "python3 get-pip.py --user"
