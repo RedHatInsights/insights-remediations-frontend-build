@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "dependencies": {
     "@patternfly/patternfly": {
-      "version": "2.60.0",
+      "version": "2.60.1",
       "from": "@patternfly/patternfly@latest",
-      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-2.60.0.tgz"
+      "resolved": "https://registry.npmjs.org/@patternfly/patternfly/-/patternfly-2.60.1.tgz"
     },
     "@patternfly/react-charts": {
       "version": "5.2.26",
@@ -13,9 +13,9 @@
       "resolved": "https://registry.npmjs.org/@patternfly/react-charts/-/react-charts-5.2.26.tgz"
     },
     "@patternfly/react-core": {
-      "version": "3.136.7",
+      "version": "3.136.8",
       "from": "@patternfly/react-core@prerelease",
-      "resolved": "https://registry.npmjs.org/@patternfly/react-core/-/react-core-3.136.7.tgz"
+      "resolved": "https://registry.npmjs.org/@patternfly/react-core/-/react-core-3.136.8.tgz"
     },
     "@patternfly/react-icons": {
       "version": "3.14.41",
