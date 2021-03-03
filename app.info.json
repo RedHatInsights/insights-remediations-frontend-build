@@ -3,10 +3,10 @@
   "src_hash": "70b5e7be572b2a342c03505ced0c04cb743962db",
   "src_tag": "",
   "src_branch": "nightly",
-  "patternfly_dependencies": ["@patternfly/patternfly@4.87.3","@patternfly/react-charts@6.14.2","@patternfly/react-core@4.99.0","@patternfly/react-icons@4.9.2","@patternfly/react-table@4.20.15","@patternfly/react-tokens@4.10.2"],
+  "patternfly_dependencies": ["@patternfly/patternfly@4.87.3","@patternfly/react-charts@6.14.2","@patternfly/react-core@4.99.1","@patternfly/react-icons@4.9.2","@patternfly/react-table@4.20.15","@patternfly/react-tokens@4.10.2"],
   "travis": {
     "event_type": "cron",
-    "build_number": "2114",
-    "build_web_url": "https://travis-ci.com/RedHatInsights/insights-remediations-frontend/builds/218779286"
+    "build_number": "2115",
+    "build_web_url": "https://travis-ci.com/RedHatInsights/insights-remediations-frontend/builds/218910188"
   }
 }
