@@ -1,12 +1,12 @@
 {
   "app_name": "remediations",
-  "src_hash": "5c876d0d4399c584658cb982f8c729c194b20330",
+  "src_hash": "68f1422dda4d66626c3e3e7261a628aa1908a359",
   "src_tag": "",
   "src_branch": "nightly",
-  "patternfly_dependencies": ["@patternfly/patternfly@4.103.6","@patternfly/react-charts@6.14.27","@patternfly/react-core@4.126.2","@patternfly/react-icons@4.10.7","@patternfly/react-table@4.27.7","@patternfly/react-tokens@4.11.10"],
+  "patternfly_dependencies": ["@patternfly/patternfly@4.103.6","@patternfly/react-charts@6.14.27","@patternfly/react-core@4.128.0","@patternfly/react-icons@4.10.7","@patternfly/react-table@4.27.7","@patternfly/react-tokens@4.11.10"],
   "travis": {
     "event_type": "cron",
-    "build_number": "2320",
-    "build_web_url": "https://travis-ci.com/RedHatInsights/insights-remediations-frontend/builds/227672701"
+    "build_number": "2322",
+    "build_web_url": "https://travis-ci.com/RedHatInsights/insights-remediations-frontend/builds/227798294"
   }
 }
