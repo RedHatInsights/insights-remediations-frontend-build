@@ -1,2 +1,2 @@
 (self.webpackChunkinsights_remediations_frontend=self.webpackChunkinsights_remediations_frontend||[]).push([[665],{14665:(t,e,n)=>{"use strict";function s(t,e){return(s=Object.setPrototypeOf||function(t,e){return t.__proto__=e,t})(t,e)}n.d(e,{Z:()=>s})}}]);
-//# sourceMappingURL=../sourcemaps/665.b16840f7b5dbdd9228b8.js.map
+//# sourceMappingURL=../sourcemaps/665.81f3dd8dce3422c21d80.js.map
