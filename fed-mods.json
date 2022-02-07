@@ -1,12 +1,15 @@
 {
     "remediations": {
         "entry": [
-            "/apps/remediations/remediations.1ac53fe6aeec3fd603cf.js"
+            "/apps/remediations/remediations.1644251991547.ef5e3568c49b88c98f4b.js"
         ],
         "modules": [
-            "/apps/remediations/js/412.ed61e2828830465917e0.js",
-            "/apps/remediations/js/352.79ed060c54e2c30ae1d6.js",
-            "/apps/remediations/js/127.8b39f5c5e37487d596ab.js"
+            "/apps/remediations/js/852.1644251991475.ef5e3568c49b88c98f4b.js",
+            "/apps/remediations/css/852.6233b6a2cbf4496d00bc.css",
+            "/apps/remediations/js/920.1644251991475.ef5e3568c49b88c98f4b.js",
+            "/apps/remediations/css/920.4ef21b3c323873fa8733.css",
+            "/apps/remediations/js/525.1644251991475.ef5e3568c49b88c98f4b.js",
+            "/apps/remediations/css/525.4ef21b3c323873fa8733.css"
         ]
     }
 }
