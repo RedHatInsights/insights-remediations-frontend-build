@@ -1,14 +1,14 @@
 {
   "app_name": "remediations",
   "node_version": ">=15.0.0",
-  "src_hash": "c48a9ed303307e604dd87d998d8a701b2ef40bec",
+  "src_hash": "bcceb967e31e5a7736e0efd91f63534821c76bdf",
   "src_tag": "",
   "src_branch": "master",
   "patternfly_dependencies": ["@patternfly/patternfly@4.125.3","@patternfly/react-charts@6.15.3","@patternfly/react-core@4.157.3","@patternfly/react-icons@4.11.17","@patternfly/react-log-viewer@4.37.15","@patternfly/react-table@4.29.0","@patternfly/react-tokens@4.12.18"],
   "rh_cloud_services_dependencies": ["@redhat-cloud-services/frontend-components-notifications@3.2.2","@redhat-cloud-services/frontend-components-utilities@3.2.3","@redhat-cloud-services/frontend-components@3.3.5","@redhat-cloud-services/host-inventory-client@1.0.100","@redhat-cloud-services/remediations-client@1.0.100","@redhat-cloud-services/sources-client@1.0.100"],
   "travis": {
     "event_type": "push",
-    "build_number": "2771",
-    "build_web_url": "https://app.travis-ci.com/RedHatInsights/insights-remediations-frontend/builds/247352615"
+    "build_number": "2784",
+    "build_web_url": "https://app.travis-ci.com/RedHatInsights/insights-remediations-frontend/builds/247619961"
   }
 }
