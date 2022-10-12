@@ -1,16 +1,16 @@
 {
     "remediations": {
         "entry": [
-            "/beta/apps/remediations/remediations.1665052215042.ea80981b4b249bf219b7.js"
+            "/beta/apps/remediations/remediations.1665564879135.1d4f7b21a2f98d5bc671.js"
         ],
         "modules": [
-            "/beta/apps/remediations/js/6847.1665052214959.ea80981b4b249bf219b7.js",
+            "/beta/apps/remediations/js/6847.1665564879054.1d4f7b21a2f98d5bc671.js",
             "/beta/apps/remediations/css/6847.f19e09a46e95186cb5ee.css",
-            "/beta/apps/remediations/js/1527.1665052214959.ea80981b4b249bf219b7.js",
+            "/beta/apps/remediations/js/1527.1665564879054.1d4f7b21a2f98d5bc671.js",
             "/beta/apps/remediations/css/1527.480427e7fceece6e7904.css",
-            "/beta/apps/remediations/js/1952.1665052214959.ea80981b4b249bf219b7.js",
+            "/beta/apps/remediations/js/1952.1665564879054.1d4f7b21a2f98d5bc671.js",
             "/beta/apps/remediations/css/1952.480427e7fceece6e7904.css",
-            "/beta/apps/remediations/js/1662.1665052214959.ea80981b4b249bf219b7.js"
+            "/beta/apps/remediations/js/1662.1665564879054.1d4f7b21a2f98d5bc671.js"
         ]
     }
 }
