@@ -1,1 +1,0 @@
-(self.webpackChunkinsights_remediations_frontend=self.webpackChunkinsights_remediations_frontend||[]).push([[7567],{27567:()=>{}}]);
