@@ -1,14 +1,14 @@
 {
   "app_name": "remediations",
   "node_version": ">=15.0.0",
-  "src_hash": "90780c67fd5b638e70c8f92a6565a3af3a7a3061",
+  "src_hash": "81d9903dabc88cdc77de2625225291c6cf7b26bd",
   "src_tag": "",
   "src_branch": "master",
   "patternfly_dependencies": ["@patternfly/react-charts@6.74.3","@patternfly/react-core@4.276.8","@patternfly/react-icons@4.93.6","@patternfly/react-log-viewer@4.66.3","@patternfly/react-table@4.113.0","@patternfly/react-tokens@4.94.6"],
-  "rh_cloud_services_dependencies": ["@redhat-cloud-services/frontend-components-notifications@3.2.7","@redhat-cloud-services/frontend-components-utilities@3.5.0","@redhat-cloud-services/frontend-components@3.9.3","@redhat-cloud-services/host-inventory-client@1.0.100","@redhat-cloud-services/remediations-client@1.2.0","@redhat-cloud-services/sources-client@1.0.100"],
+  "rh_cloud_services_dependencies": ["@redhat-cloud-services/frontend-components-notifications@3.2.7","@redhat-cloud-services/frontend-components-utilities@3.7.6","@redhat-cloud-services/frontend-components@3.11.5","@redhat-cloud-services/host-inventory-client@1.0.100","@redhat-cloud-services/remediations-client@1.2.0","@redhat-cloud-services/sources-client@1.0.100"],
   "travis": {
     "event_type": "push",
-    "build_number": "3381",
-    "build_web_url": "https://app.travis-ci.com/RedHatInsights/insights-remediations-frontend/builds/265299059"
+    "build_number": "3389",
+    "build_web_url": "https://app.travis-ci.com/RedHatInsights/insights-remediations-frontend/builds/265430349"
   }
 }
