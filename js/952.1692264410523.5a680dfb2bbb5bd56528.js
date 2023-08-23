@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkinsights_remediations_frontend=self.webpackChunkinsights_remediations_frontend||[]).push([[952],{52127:(e,s,n)=>{n.r(s),n.d(s,{default:()=>i.Z});var i=n(87938)}}]);
