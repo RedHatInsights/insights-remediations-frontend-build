@@ -5,7 +5,7 @@
   "registrationMethod": "callback",
   "baseURL": "/beta/apps/remediations/",
   "loadScripts": [
-    "remediations.b3bc304ede2730d0ebcc.js"
+    "remediations.de9d3d267c8851a450ac.js"
   ],
-  "buildHash": "b3bc304ede2730d0ebcc03f7bec9c4b1"
+  "buildHash": "de9d3d267c8851a450ac4ed4aa0499a0"
 }
