@@ -1,11 +1,1 @@
-{
-  "name": "remediations",
-  "version": "1.0.0",
-  "extensions": [],
-  "registrationMethod": "callback",
-  "baseURL": "/beta/apps/remediations/",
-  "loadScripts": [
-    "remediations.873d73fa3840d3adacd2.js"
-  ],
-  "buildHash": "873d73fa3840d3adacd219ab96ecdc22"
-}
+{"name":"remediations","version":"1.0.0","extensions":[],"registrationMethod":"custom","baseURL":"/beta/apps/remediations/","loadScripts":["remediations.b03398cc325ced53129d.js"],"buildHash":"645f99ff11316533259e1202c45a279e"}
