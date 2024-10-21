@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkremediations=self.webpackChunkremediations||[]).push([[5995],{18376:(e,i,n)=>{n.r(i),n.d(i,{Spinner:()=>s.y,spinnerSize:()=>s.J});var s=n(71601)}}]);
